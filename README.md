@@ -12,7 +12,7 @@ Banknote is a small, easy-to-use JavaScript library that provides a simple way t
 
 Banknote addresses a common problem faced by anyone (for example, an e-commerce company) who has to update and format prices on the frontend. It is different from similar projects in that it follows Unicode CLDR formatting standards, not an ad hoc data solution. It also:  
 - is customizable — you can use emoticons, preferred symbols, etc.
-- allows you to override its default settings — for example, if you want to apply US formatting to amounts in Chinese yen
+- allows you to override its default settings — for example, if you want to apply US formatting to amounts in Chinese yuan.
 
 If you want to do more than just format monetary amounts, and you are open to changing your build process or accepting a ~300MB node module, then we recommend using jQuery Foundation’s [globalize](https://github.com/jquery/globalize). It uses the same data as Banknote, but includes access to all of the [Unicode CLDR](http://cldr.unicode.org/).
 
